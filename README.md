@@ -47,7 +47,7 @@ Where:
 
 The full list is:
 ```
-Usage: PNGTools.py -i <input.png> -o <output.png> -p <operation> [options]
+Usage: pngtools -i <input.png> -o <output.png> -p <operation> [options]
 
 Required Arguments:
     -i, --input <file>          Input PNG file
