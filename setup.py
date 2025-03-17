@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "Pillow>=11.1.0",
-        "numpy>=2.2.3",
+        "numpy>=1.26.4",
     ],
     entry_points={
         'console_scripts': [
