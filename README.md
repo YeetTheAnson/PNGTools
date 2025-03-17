@@ -1,6 +1,6 @@
 # PNGTools
 
-A comprehensive command-line utility for PNG image manipulation, providing a wide range of tools for analyzing, modifying, and converting PNG images.
+A comprehensive command line utility for PNG image manipulation.
 
 ## Table of Contents
 - [Installation](#installation)
