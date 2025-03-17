@@ -20,16 +20,18 @@ git clone https://github.com/YeetTheAnson/PNGTools
 
 # Install 
 pip install ./PNGTools
-```
-### Windows (Without Git)
-```bash
-curl -o PNGTools.zip "https://github.com/YeetTheAnson/PNGTools/releases/download/new/PNGTools.zip"
-tar -xf PNGTools.zip
-pip install ./PNGTools
+
 ```
 
-# Install 
+### Windows (Without Git)
+```bash
+mkdir PNGTools
+cd PNGTools
+curl -Lo PNGTools.zip "https://github.com/YeetTheAnson/PNGTools/releases/download/new/PNGTools.zip"
+tar -xf PNGTools.zip
+del PNGTools.zip
 pip install ./PNGTools
+
 ```
 
 ### Linux
@@ -39,6 +41,7 @@ sudo git clone https://github.com/YeetTheAnson/PNGTools
 
 # Install 
 sudo pip install ./PNGTools --break-system-packages
+
 ```
 
 ## Usage
