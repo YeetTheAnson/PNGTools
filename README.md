@@ -544,7 +544,6 @@ Before | After
 ## Image Creation Pipeline
 
 ```bash
-# Create a test image with multiple operations
 pngtools -i base.png -o step1.png -p swap-color --from FFFFFF --to FFFF00 --tolerance 10
 pngtools -i step1.png -o step2.png -p border --thickness 5 --color FF0000
 pngtools -i step2.png -o step3.png -p round-corners --cornerradius 15
