@@ -13,10 +13,20 @@ A comprehensive command line utility for PNG image manipulation.
 
 ## Installation
 
-### Windows
+### Windows (With Git)
 ```bash
 # Clone the repository
 git clone https://github.com/YeetTheAnson/PNGTools
+
+# Install 
+pip install ./PNGTools
+```
+### Windows (Without Git)
+```bash
+curl -o PNGTools.zip "https://github.com/YeetTheAnson/PNGTools/releases/download/new/PNGTools.zip"
+tar -xf PNGTools.zip
+pip install ./PNGTools
+```
 
 # Install 
 pip install ./PNGTools
