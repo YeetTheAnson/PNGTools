@@ -13,12 +13,22 @@ A comprehensive command-line utility for PNG image manipulation, providing a wid
 
 ## Installation
 
+### Windows
 ```bash
 # Clone the repository
 git clone https://github.com/YeetTheAnson/PNGTools
 
 # Install 
 pip install ./PNGTools
+```
+
+### Linux
+```bash
+# Clone the repository
+sudo git clone https://github.com/YeetTheAnson/PNGTools
+
+# Install 
+sudo pip install ./PNGTools --break-system-packages
 ```
 
 ## Usage
@@ -37,7 +47,7 @@ Where:
 
 The full list is:
 ```
-Usage: pngtools -i <input.png> -o <output.png> -p <operation> [options]
+Usage: PNGTools.py -i <input.png> -o <output.png> -p <operation> [options]
 
 Required Arguments:
     -i, --input <file>          Input PNG file
